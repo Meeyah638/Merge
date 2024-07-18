@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <title>Form assignment</title>
+</head>
+
+<body>
+    <form action="">
+        <label for="Username">Username:</label>
+        <input type="text" id="Username" name="Name" required><br><br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required><br><br>
+
+        <label for="City">City of employment:</label>
+        <input type="text" id="city" name="city">
+
+        <label for="server">Web server:</label>
+        <select name="server" id="server">
+            <option value="" selected>--Choose a server--</option>
+            <option value="nginx">Nginx</option>
+            <option value="lighttpd">Lighttpd</option>
+            <option value="node.js">Node.js</option>
+            <option value="iis">IIS</option>
+        </select>
+        
+        <p>Please specify your role:</p>
+        <input type="radio" id="Admin" name="role" value="Admin"><label for="Admin">Admin</label><br>
+        <input type="radio" id="Engineer" name="role" value="Engineer"><label for="Engineer">Engineer</label><br>
+        <input type="radio" id="Manager" name="role" value="Manager"><label for="Manager">Manager</label><br>
+        <input type="radio" id="Guest" name="role" value="Guest"><label for="Guest">Guest</label><br><br>
+
+        <p>Single Sign-on to the following:</p>
+        <input type="checkbox" id="Mail" name="Sign-on" value="Mail"><label for="Mail">Mail</label><br>
+        <input type="checkbox" id="Payroll" name="Sign-on" value="Payroll"><label for="Payroll">Payroll</label><br>
+        <input type="checkbox" id="Self-Service" name="Sign-on" value="Self-Service"><label for="Self-Service">Self-Service</label><br><br>
+
+        <button type="submit">
+            Login
+        </button>
+
+        <button type="submit">
+            Reset
+        </button>
+
+    </form>
+</body>
+</html>
