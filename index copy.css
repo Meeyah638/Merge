@@ -1,0 +1,17 @@
+h2{
+    color: blue;
+}
+
+label{
+    color: red;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+button{
+    background-color: lightcoral;
+    color: rgb(78, 4, 4);
+    border: 100%;
+    border-color: blue;
+}
+
